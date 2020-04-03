@@ -1,0 +1,2 @@
+*_arnaud.v filter=git-crypt diff=git-crypt
+*.idr filter=git-crypt diff=git-crypt
