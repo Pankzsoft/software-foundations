@@ -83,3 +83,10 @@ Constructors:
 ```
 
 The `auto` qualifier instructs the typechecker to look for the proof in the environment.
+
+Encountered some issue with `assert` and sub-proofs while trying to prove mult_comm: I was unable to close the subproof with `}`, it yielded the following error message:
+
+```
+This proof is focused, but cannot be unfocused this way
+```
+which hints at unfinished proof.
